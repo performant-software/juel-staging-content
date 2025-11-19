@@ -72,11 +72,11 @@
       },
       "timeline": false,
       "typesense": {
-        "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
+        "host": "rs8fzgh714n6bmvyp-1.a1.typesense.net",
         "port": 443,
         "protocol": "https",
-        "api_key": "VyEhiw82yD3YIRPOyJggLUZShYLMurYx",
-        "index_name": "juel_places",
+        "api_key": "ZwU1eWYHl0wtKHlmsInr4NhZE6bDmqH7",
+        "index_name": "places",
         "query_by": "name"
       }
     },
@@ -94,11 +94,11 @@
       },
       "timeline": false,
       "typesense": {
-        "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
+        "host": "rs8fzgh714n6bmvyp-1.a1.typesense.net",
         "port": 443,
         "protocol": "https",
-        "api_key": "VyEhiw82yD3YIRPOyJggLUZShYLMurYx",
-        "index_name": "juel_people",
+        "api_key": "ZwU1eWYHl0wtKHlmsInr4NhZE6bDmqH7",
+        "index_name": "people",
         "query_by": "name"
       }
     },
@@ -116,11 +116,11 @@
       },
       "timeline": false,
       "typesense": {
-        "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
+        "host": "rs8fzgh714n6bmvyp-1.a1.typesense.net",
         "port": 443,
         "protocol": "https",
-        "api_key": "VyEhiw82yD3YIRPOyJggLUZShYLMurYx",
-        "index_name": "juel_documents",
+        "api_key": "ZwU1eWYHl0wtKHlmsInr4NhZE6bDmqH7",
+        "index_name": "documents",
         "query_by": "name"
       }
     }
