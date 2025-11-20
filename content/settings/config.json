@@ -113,7 +113,7 @@
     {
       "name": "items",
       "route": "/items",
-      "type": "grid",
+      "type": "list",
       "geosearch": true,
       "map": {
         "geometry": "f05615a6-588e-472f-aead-ea19edd8d905.geometry",
