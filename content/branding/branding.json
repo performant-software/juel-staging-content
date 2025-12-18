@@ -1,6 +1,15 @@
 {
   "title": "JUEL Project",
-  "font_header": "Open Sans",
+  "font_header": "Baskerville",
+  "font_body": "Open Sans",
+  "primary_color": "#233850",
+  "secondary_color": "#9B6436",
+  "tertiary_color": "#2B4461",
+  "background_color": "#F5F3EF",
+  "background_alternate": "#FFFFFF",
+  "content_color": "#222222",
+  "content_alternate": "#777269",
+  "content_dark_bg": "#FFFFFF",
   "footer": {
     "allow_login": false
   }
