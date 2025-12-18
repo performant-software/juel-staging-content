@@ -10,9 +10,9 @@
     ]
   },
   "core_data": {
-    "url": "https://staging.coredata.cloud",
+    "url": "https://app.coredata.cloud",
     "project_ids": [
-      "194"
+      "92"
     ]
   },
   "i18n": {
@@ -62,6 +62,7 @@
       "name": "places",
       "route": "/places",
       "geosearch": true,
+      "type": "map",
       "map": {
         "geometry": "geometry",
         "max_zoom": 14,
@@ -72,18 +73,25 @@
       },
       "timeline": false,
       "typesense": {
-        "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
+        "host": "rs8fzgh714n6bmvyp-1.a1.typesense.net",
         "port": 443,
         "protocol": "https",
-        "api_key": "VyEhiw82yD3YIRPOyJggLUZShYLMurYx",
-        "index_name": "juel_places",
+        "api_key": "il1F8rZjIq81FQablSXra1XYOMMnJ4Hu",
+        "index_name": "places",
         "query_by": "name"
       }
     },
     {
       "name": "people",
       "route": "/people",
+      "type": "grid",
       "geosearch": true,
+      "facets": [
+        {
+          "name": "2d5e2c31-8513-4c39-9862-e139199e54bf.names_facet",
+          "type": "select"
+        }
+      ],
       "map": {
         "geometry": "e64a2d43-7c36-44db-a09a-3e01c2289793.geometry",
         "max_zoom": 14,
@@ -94,17 +102,18 @@
       },
       "timeline": false,
       "typesense": {
-        "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
+        "host": "rs8fzgh714n6bmvyp-1.a1.typesense.net",
         "port": 443,
         "protocol": "https",
-        "api_key": "VyEhiw82yD3YIRPOyJggLUZShYLMurYx",
-        "index_name": "juel_people",
+        "api_key": "il1F8rZjIq81FQablSXra1XYOMMnJ4Hu",
+        "index_name": "people",
         "query_by": "name"
       }
     },
     {
       "name": "items",
       "route": "/items",
+      "type": "list",
       "geosearch": true,
       "map": {
         "geometry": "f05615a6-588e-472f-aead-ea19edd8d905.geometry",
@@ -116,11 +125,28 @@
       },
       "timeline": false,
       "typesense": {
-        "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
+        "host": "rs8fzgh714n6bmvyp-1.a1.typesense.net",
         "port": 443,
         "protocol": "https",
-        "api_key": "VyEhiw82yD3YIRPOyJggLUZShYLMurYx",
-        "index_name": "juel_documents",
+        "api_key": "il1F8rZjIq81FQablSXra1XYOMMnJ4Hu",
+        "index_name": "documents",
+        "query_by": "name"
+      }
+    },
+    {
+      "name": "images",
+      "route": "/media",
+      "type": "grid",
+      "result_card": {
+        "title": "name"
+      },
+      "timeline": false,
+      "typesense": {
+        "host": "rs8fzgh714n6bmvyp-1.a1.typesense.net",
+        "port": 443,
+        "protocol": "https",
+        "api_key": "il1F8rZjIq81FQablSXra1XYOMMnJ4Hu",
+        "index_name": "media",
         "query_by": "name"
       }
     }
