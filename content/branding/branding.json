@@ -3,7 +3,7 @@
   "font_header": "Baskerville",
   "font_body": "Open Sans",
   "primary_color": "#233850",
-  "secondary_color": "#9B6436",
+  "secondary_color": "#A36839",
   "tertiary_color": "#2B4461",
   "background_color": "#F5F3EF",
   "background_alternate": "#FFFFFF",
@@ -11,6 +11,55 @@
   "content_alternate": "#777269",
   "content_dark_bg": "#FFFFFF",
   "footer": {
-    "allow_login": false
+    "custom": true,
+    "allow_login": false,
+    "custom_content": {
+      "background": "primary",
+      "text": "content_light",
+      "columns": [
+        {
+          "width": "col-span-4",
+          "content": [
+            {
+              "image": "https://core-data-tina-cms.s3.us-east-1.amazonaws.com/juel-staging-content/JU_footer.svg",
+              "_template": "image"
+            },
+            {
+              "image": "https://core-data-tina-cms.s3.us-east-1.amazonaws.com/juel-staging-content/IATH_footer.png",
+              "_template": "image"
+            }
+          ]
+        },
+        {
+          "width": "col-span-4",
+          "align": "items-center text-center",
+          "content": [
+            {
+              "text": "**People**\n\n**The Academical Village**\n\n**Essays**\n\n**Documents**\n\n**Images**\n\n**About**\n",
+              "_template": "richtext"
+            }
+          ]
+        },
+        {
+          "width": "col-span-2",
+          "content": [
+            {
+              "image": "https://core-data-tina-cms.s3.us-east-1.amazonaws.com/juel-staging-content/trust_footer.png",
+              "_template": "image"
+            }
+          ]
+        },
+        {
+          "width": "col-span-2",
+          "align": "",
+          "content": [
+            {
+              "image": "https://core-data-tina-cms.s3.us-east-1.amazonaws.com/juel-staging-content/kenan_footer.png",
+              "_template": "image"
+            }
+          ]
+        }
+      ]
+    }
   }
 }
