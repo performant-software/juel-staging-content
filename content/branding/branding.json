@@ -10,6 +10,9 @@
   "background_alternate": "#FFFFFF",
   "content_color": "#222222",
   "content_alternate": "#777269",
+  "header": {
+    "logo": "https://core-data-tina-cms.s3.us-east-1.amazonaws.com/juel-staging-content/JUEL_logo.png"
+  },
   "footer": {
     "custom": true,
     "allow_login": false,
