@@ -21,7 +21,7 @@
     },
     {
       "label": "About",
-      "href": "/pages/About",
+      "href": "/en/pages/About",
       "_template": "URL"
     }
   ]
