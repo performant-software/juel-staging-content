@@ -30,6 +30,11 @@
       "_template": "URL"
     },
     {
+      "label": "Images",
+      "href": "/en/search/images/",
+      "_template": "URL"
+    },
+    {
       "label": "About",
       "href": "/en/pages/About",
       "_template": "URL"
