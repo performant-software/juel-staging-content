@@ -14,7 +14,7 @@
         },
         {
           "label": "Map",
-          "href": "/search/places/#/&map=0/0/0"
+          "href": "/en/search/places/#/&map=0/0/0"
         }
       ],
       "_template": "Dropdown"
