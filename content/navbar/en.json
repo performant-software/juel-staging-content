@@ -1,11 +1,6 @@
 {
   "items": [
     {
-      "label": "About",
-      "href": "en/pages/About",
-      "_template": "URL"
-    },
-    {
       "label": "People",
       "href": "/en/pages/People/",
       "_template": "URL"
@@ -23,6 +18,11 @@
         }
       ],
       "_template": "Dropdown"
+    },
+    {
+      "label": "About",
+      "href": "en/pages/About",
+      "_template": "URL"
     }
   ]
 }
