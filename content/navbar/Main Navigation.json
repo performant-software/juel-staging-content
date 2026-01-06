@@ -9,12 +9,12 @@
       "label": "The Academical Village",
       "options": [
         {
-          "label": "Map",
-          "href": "/en/search/places/#/&map=0/0/0"
-        },
-        {
           "label": "About",
           "href": "/en/pages/History/"
+        },
+        {
+          "label": "Map",
+          "href": "/en/search/places/#/&map=0/0/0"
         }
       ],
       "_template": "Dropdown"
