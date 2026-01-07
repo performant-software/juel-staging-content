@@ -1,9 +1,11 @@
 {
-  "detail_pages": [
-    "people",
-    "places",
-    "items"
-  ],
+  "detail_pages": {
+    "models": [
+      "people",
+      "places",
+      "items"
+    ]
+  },
   "content": {
     "collections": [
       "posts"
