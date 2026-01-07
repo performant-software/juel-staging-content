@@ -3,25 +3,25 @@ title: About
 nav_bar: true
 transparent: true
 sections:
-  - hero: true
-    content: >
-      # About the Project
-
-
+  - id: hero
+    hero: true
+    title: About the Project
+    subtitle: >-
       JUEL was cofounded by Maurie McInnis, former University of Virginia
       Professor of Art History and Vice Provost for Academic Affairs and Kirt
       von Daacke, University of Virginia Research Professor (History & American
       Studies), with start-up funding provided by the Jefferson Trust. Site
       development continues today with ongoing generous support from the William
       R. Kenan Endowment Fund of the Academical Village.
+    content: ''
     background_image: >-
       https://core-data-tina-cms.s3.us-east-1.amazonaws.com/juel-staging-content/about_hero.png
     clip: false
     darken: true
     _template: banner
-  - size: medium
-    _template: spacer
-  - gap: large
+  - top_margin: 'mt-[64px]'
+    bottom_margin: 'mb-[64px]'
+    gap: large
     columns:
       - justify: justify-center
         content:
@@ -43,13 +43,12 @@ sections:
           - image: >-
               https://core-data-tina-cms.s3.us-east-1.amazonaws.com/juel-staging-content/Rectangle
               4978.png
+            full_height: true
             _template: image
     _template: multi_column
-  - size: medium
-    _template: spacer
-  - size: medium
+  - background: primary
+    size: medium
     color: ''
-    background: primary
     _template: spacer
   - background: primary
     text: content_light
@@ -64,17 +63,16 @@ sections:
     icon: >-
       https://core-data-tina-cms.s3.us-east-1.amazonaws.com/juel-staging-content/quote.svg
     _template: feature_quote
-  - size: medium
+  - background: primary
+    size: medium
     color: ''
-    background: primary
     _template: spacer
-  - size: medium
-    _template: spacer
-  - columns:
+  - top_margin: 'mt-[64px]'
+    columns:
       - width: col-span-3
         content:
           - text: |
-              #### The Team
+              ##### *The Team*
 
               ## Meet the Team
             _template: richtext
@@ -98,18 +96,16 @@ sections:
               technological designers.
             _template: richtext
     _template: multi_column
-  - size: small
-    _template: spacer
-  - columns:
+  - top_margin: 'mt-[32px]'
+    columns:
       - align: items-center text-center
         content:
           - text: |
               ## Principal Members
             _template: richtext
     _template: multi_column
-  - size: small
-    _template: spacer
-  - columns:
+  - top_margin: 'mt-[32px]'
+    columns:
       - align: items-center text-center
         content:
           - image: >-
@@ -117,7 +113,7 @@ sections:
             rounded: true
             _template: image
           - text: >
-              ##### Kirk von Daacke
+              #### Kirk von Daacke
 
 
               Research Professor (History & American Studies) & UVA Gibbons
@@ -133,7 +129,7 @@ sections:
             rounded: true
             _template: image
           - text: >
-              ##### Worthy Martin
+              #### Worthy Martin
 
 
               Associate Professor of Computer Science Emeritus (& IATH Acting
@@ -149,7 +145,7 @@ sections:
             rounded: true
             _template: image
           - text: |
-              ##### Maurie McInnis
+              #### Maurie McInnis
 
               Professor of Art History
 
@@ -164,7 +160,7 @@ sections:
             rounded: true
             _template: image
           - text: >
-              ##### Louis P. Nelson
+              #### Louis P. Nelson
 
 
               Professor of Architectural History and Vice Provost for Academic
@@ -177,38 +173,34 @@ sections:
             rounded: true
             _template: image
           - text: |
-              ##### Ashley Schmidt
+              #### Ashley Schmidt
 
               UVA Gibbons Project Assistant Director
             _template: richtext
     _template: multi_column
-  - size: small
-    _template: spacer
-  - tabs:
+  - top_margin: 'mt-[32px]'
+    text_style: uppercase
+    tabs:
       - label: Staff
         content:
-          - columns:
-              - content:
-                  - text: |
-                      ### Staff
-                    _template: richtext
-          - columns:
-              - content:
-                  - text: |
-                      **Robbie Bingler**\
-                      *IATH Senior Software Developer (in memoriam 2019).*
-                    _template: richtext
-              - {}
+          - body: |
+              **Person 1**\
+              *Role 1*
+
+              **Person 2**\
+              *Role 2*
+            _template: free_text
       - label: Student Research Assistants
         content:
           - columns:
               - content:
-                  - title: Coming Soon
-                    _template: basic
+                  - text: |
+                      Coming Soon!
+                    _template: richtext
+            _template: multi_column
     _template: tabs
-  - size: medium
-    _template: spacer
-  - content: >
+  - top_margin: 'mt-[64px]'
+    content: >
       ## Thank you to our generous supporters
 
 

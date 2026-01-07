@@ -2,6 +2,7 @@
   "content_dark_bg": "#FFFFFF",
   "title": "JUEL Project",
   "font_header": "Baskervville",
+  "small_caps": true,
   "font_body": "Open Sans",
   "primary_color": "#233850",
   "secondary_color": "#9B6436",
@@ -15,7 +16,7 @@
     "allow_login": false,
     "custom_content": {
       "background": "primary",
-      "text": "content_light",
+      "text": "",
       "columns": [
         {
           "width": "col-span-4",
@@ -31,14 +32,17 @@
           ]
         },
         {
-          "width": "col-span-4",
-          "align": "items-center text-center",
+          "width": "col-span-2",
+          "align": "",
           "content": [
             {
               "text": "**People**\n\n**The Academical Village**\n\n**Essays**\n\n**Documents**\n\n**Images**\n\n**About**\n",
               "_template": "richtext"
             }
           ]
+        },
+        {
+          "width": "col-span-2"
         },
         {
           "width": "col-span-2",

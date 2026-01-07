@@ -27,12 +27,12 @@ sections:
     clip: false
     darken: true
     _template: banner
-  - size: medium
-    _template: spacer
-  - columns:
+  - top_margin: 'mt-[64px]'
+    columns:
       - content:
           - image: >-
               https://core-data-tina-cms.s3.us-east-1.amazonaws.com/juel-staging-content/UVA_Carr's_Hill_Blue_Cottage.png
+            full_height: true
             _template: image
       - justify: justify-center
         content:
@@ -118,12 +118,12 @@ sections:
           - image: >-
               https://core-data-tina-cms.s3.us-east-1.amazonaws.com/juel-staging-content/1866UVAFaculty
               3.png
+            full_height: true
             _template: image
     _template: multi_column
-  - size: large
-    _template: spacer
-  - gap: large
-    background: primary
+  - background: primary
+    top_margin: 'mt-[96px]'
+    gap: large
     text: content_light
     columns:
       - justify: justify-center
@@ -134,10 +134,12 @@ sections:
           - image: >-
               https://core-data-tina-cms.s3.us-east-1.amazonaws.com/juel-staging-content/workers
               2.png
+            full_height: true
             _template: image
           - image: >-
               https://core-data-tina-cms.s3.us-east-1.amazonaws.com/juel-staging-content/PeterUVa
               2.png
+            full_height: true
             _template: image
       - justify: justify-center
         content:
@@ -185,7 +187,8 @@ sections:
     text_alignment: center
     clip: true
     _template: banner
-  - title: ''
+  - bottom_margin: 'mb-[64px]'
+    title: ''
     text_alignment: center
     gap: large
     columns:
@@ -215,6 +218,7 @@ sections:
 
               <button content="Explore the Hotels" href="#" color="layout"
               text="secondary" border="secondary" />
+            padding: true
             _template: richtext
       - width: col-span-4
         border: secondary
@@ -243,6 +247,7 @@ sections:
 
               <button content="Explore the Stores" href="#" color="layout"
               text="secondary" border="secondary" />
+            padding: true
             _template: richtext
       - border: secondary
         content:
@@ -267,9 +272,8 @@ sections:
 
               <button content="Explore the Buildings" href="#"
               border="secondary" text="secondary" />
+            padding: true
             _template: richtext
     _template: multi_column
-  - size: medium
-    _template: spacer
 ---
 
