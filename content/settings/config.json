@@ -207,6 +207,12 @@
             ""
           ]
         },
+        "overrides": {
+          "additionalSearchParameters": {
+            "filter_by": "8a11aa96-d0ea-4d82-827b-58201dc3fb40:=true",
+            "preset": false
+          }
+        },
         "port": 443,
         "protocol": "https",
         "api_key": "il1F8rZjIq81FQablSXra1XYOMMnJ4Hu",
