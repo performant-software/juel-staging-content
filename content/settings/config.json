@@ -101,7 +101,9 @@
       "typesense": {
         "host": "rs8fzgh714n6bmvyp-1.a1.typesense.net",
         "facets": {
-          "include": []
+          "include": [
+            ""
+          ]
         },
         "port": 443,
         "protocol": "https",
