@@ -6,6 +6,30 @@
       "items"
     ]
   },
+  "result_filtering": {
+    "people": {
+      "exclude": [
+        "36821df6-ba35-4175-ac39-e9b3da87ba4e",
+        "24383a99-284b-4c89-803f-17aa1e7305a7",
+        "9a2a39f9-4e40-46ec-b929-4a058da6c3f6",
+        "e9ea7319-b93c-44c8-b1ba-c387c549d110",
+        "b61c5e80-bb14-4c48-93f6-d1d40222a8c9",
+        "f64b203e-cf92-461b-a9e1-6c95471ecc3e",
+        "0d5d0eae-34fe-47cd-a189-90af50b2b1e1",
+        "e7173b0d-9878-4ad2-a9a8-82a899ccdcca",
+        "9bb9218b-6929-4365-bb0d-95f6427e1005",
+        "02001264-9bd9-4281-8b2e-9e46d61bcb1a",
+        "01ff9954-d5ac-4f11-929e-5451caeea3d2"
+      ]
+    },
+    "items": {
+      "exclude": [
+        "b57475b6-8e0d-458c-96a5-c9d81e8eb0bd",
+        "98721bd1-da23-4f28-bdfb-a4bb28fb5990",
+        "bb20d614-333f-40f6-b5fb-708011cb6185"
+      ]
+    }
+  },
   "content": {
     "collections": [
       "posts"
@@ -23,6 +47,7 @@
       "en"
     ]
   },
+  "gallery": "https://app.coredata.cloud/core_data/public/v1/items/95c7f234-3e81-49b8-8b72-25bc57896183/manifests?project_ids=92",
   "layers": [
     {
       "name": "Johnson's map of New York and the adjacent cities",
@@ -67,19 +92,21 @@
       "type": "map",
       "map": {
         "geometry": "geometry",
-        "max_zoom": 14,
+        "max_zoom": 25,
         "zoom_to_place": true
       },
       "result_card": {
         "title": "name"
       },
-      "timeline": false,
       "typesense": {
         "host": "rs8fzgh714n6bmvyp-1.a1.typesense.net",
+        "facets": {
+          "include": []
+        },
         "port": 443,
         "protocol": "https",
         "api_key": "il1F8rZjIq81FQablSXra1XYOMMnJ4Hu",
-        "index_name": "places",
+        "index_name": "places_campus",
         "query_by": "name"
       }
     },
@@ -90,8 +117,24 @@
       "geosearch": true,
       "facets": [
         {
-          "name": "2d5e2c31-8513-4c39-9862-e139199e54bf.names_facet",
+          "name": "2d5e2c31-8513-4c39-9862-e139199e54bf.name_facet",
           "type": "select"
+        },
+        {
+          "name": "54ffcbd2-4ce7-44ab-8d1c-42a004372fa7.name_facet",
+          "type": "select"
+        },
+        {
+          "name": "b20139c2-5a2b-4235-bb0f-09563828e195.name_facet",
+          "type": "select"
+        },
+        {
+          "name": "319c320d-d278-443d-b015-95377be24b6c_facet",
+          "type": "range"
+        },
+        {
+          "name": "5c75a0f7-2646-4dd4-ac2e-cfce8cac14dc_facet",
+          "type": "range"
         }
       ],
       "map": {
@@ -102,9 +145,18 @@
       "result_card": {
         "title": "name"
       },
-      "timeline": false,
       "typesense": {
         "host": "rs8fzgh714n6bmvyp-1.a1.typesense.net",
+        "facets": {
+          "include": [
+            "319c320d-d278-443d-b015-95377be24b6c_facet",
+            "5c75a0f7-2646-4dd4-ac2e-cfce8cac14dc_facet",
+            "16ee0266-d93c-4b92-b094-65e4362a7053.name_facet",
+            "2d5e2c31-8513-4c39-9862-e139199e54bf.name_facet",
+            "b20139c2-5a2b-4235-bb0f-09563828e195.name_facet",
+            "54ffcbd2-4ce7-44ab-8d1c-42a004372fa7.name_facet"
+          ]
+        },
         "port": 443,
         "protocol": "https",
         "api_key": "il1F8rZjIq81FQablSXra1XYOMMnJ4Hu",
@@ -125,9 +177,13 @@
       "result_card": {
         "title": "name"
       },
-      "timeline": false,
       "typesense": {
         "host": "rs8fzgh714n6bmvyp-1.a1.typesense.net",
+        "facets": {
+          "include": [
+            ""
+          ]
+        },
         "port": 443,
         "protocol": "https",
         "api_key": "il1F8rZjIq81FQablSXra1XYOMMnJ4Hu",
@@ -142,9 +198,13 @@
       "result_card": {
         "title": "name"
       },
-      "timeline": false,
       "typesense": {
         "host": "rs8fzgh714n6bmvyp-1.a1.typesense.net",
+        "facets": {
+          "include": [
+            ""
+          ]
+        },
         "port": 443,
         "protocol": "https",
         "api_key": "il1F8rZjIq81FQablSXra1XYOMMnJ4Hu",

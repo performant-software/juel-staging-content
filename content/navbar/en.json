@@ -31,8 +31,17 @@
     },
     {
       "label": "Images",
-      "href": "/en/search/images/",
-      "_template": "URL"
+      "options": [
+        {
+          "label": "Galleries",
+          "href": "/en/gallery/"
+        },
+        {
+          "label": "Search All",
+          "href": "/en/search/images/"
+        }
+      ],
+      "_template": "Dropdown"
     },
     {
       "label": "About",
