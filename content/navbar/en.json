@@ -4,12 +4,12 @@
       "label": "People",
       "options": [
         {
-          "label": "Search",
-          "href": "/en/search/people"
-        },
-        {
           "label": "About",
           "href": "/en/people"
+        },
+        {
+          "label": "Search",
+          "href": "/en/search/people"
         }
       ],
       "_template": "Dropdown"
