@@ -15,11 +15,6 @@
       "_template": "Dropdown"
     },
     {
-      "label": "People",
-      "href": "/en/pages/People/",
-      "_template": "URL"
-    },
-    {
       "label": "The Academical Village",
       "options": [
         {
