@@ -24,6 +24,7 @@
       "columns": [
         {
           "width": "col-span-4",
+          "justify": "justify-center",
           "content": [
             {
               "image": "https://core-data-tina-cms.s3.us-east-1.amazonaws.com/juel-staging-content/JU_footer.svg",
@@ -36,7 +37,7 @@
           ]
         },
         {
-          "width": "col-span-2",
+          "width": "col-span-4",
           "align": "",
           "content": [
             {
@@ -46,10 +47,8 @@
           ]
         },
         {
-          "width": "col-span-2"
-        },
-        {
           "width": "col-span-2",
+          "justify": "justify-center",
           "content": [
             {
               "image": "https://core-data-tina-cms.s3.us-east-1.amazonaws.com/juel-staging-content/trust_footer.png",
@@ -59,6 +58,7 @@
         },
         {
           "width": "col-span-2",
+          "justify": "justify-center",
           "align": "",
           "content": [
             {
