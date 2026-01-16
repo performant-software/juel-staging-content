@@ -129,14 +129,6 @@
         {
           "name": "b20139c2-5a2b-4235-bb0f-09563828e195.name_facet",
           "type": "select"
-        },
-        {
-          "name": "319c320d-d278-443d-b015-95377be24b6c_facet",
-          "type": "range"
-        },
-        {
-          "name": "5c75a0f7-2646-4dd4-ac2e-cfce8cac14dc_facet",
-          "type": "range"
         }
       ],
       "map": {
