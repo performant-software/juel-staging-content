@@ -110,10 +110,13 @@
       "geosearch": true,
       "facets": [
         {
-          "name": "5c75a0f7-2646-4dd4-ac2e-cfce8cac14dc.name_facet"
+          "name": "16ee0266-d93c-4b92-b094-65e4362a7053.name_facet"
         },
         {
           "name": "319c320d-d278-443d-b015-95377be24b6c.name_facet"
+        },
+        {
+          "name": "5c75a0f7-2646-4dd4-ac2e-cfce8cac14dc.name_facet"
         },
         {
           "name": "2d5e2c31-8513-4c39-9862-e139199e54bf.name_facet",
