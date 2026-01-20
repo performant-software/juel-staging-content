@@ -110,6 +110,9 @@
       "geosearch": true,
       "facets": [
         {
+          "name": "5c75a0f7-2646-4dd4-ac2e-cfce8cac14dc"
+        },
+        {
           "name": "319c320d-d278-443d-b015-95377be24b6c.name_facet"
         },
         {
