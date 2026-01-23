@@ -33,7 +33,16 @@
   "content": {
     "collections": [
       "posts"
-    ]
+    ],
+    "posts_config": {
+      "drafts": true,
+      "categories": [
+        "Architecture",
+        "Biographies",
+        "Contextualizing Essays",
+        "Daily Life"
+      ]
+    }
   },
   "core_data": {
     "url": "https://app.coredata.cloud",
