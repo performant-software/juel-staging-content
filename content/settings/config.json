@@ -1,10 +1,10 @@
 {
   "detail_pages": {
-    "models": [
-      "people",
-      "places",
-      "items"
-    ]
+    "models": {
+      "people": {},
+      "places": {},
+      "items": {}
+    }
   },
   "result_filtering": {
     "people": {
