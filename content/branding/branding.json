@@ -27,7 +27,7 @@
           "justify": "justify-center",
           "content": [
             {
-              "text": "![](https://core-data-tina-cms.s3.us-east-1.amazonaws.com/juel-staging-content/JU_footer.svg)\n\n\n\n![](https://core-data-tina-cms.s3.us-east-1.amazonaws.com/juel-staging-content/IATH_footer.png)\n",
+              "text": "",
               "_template": "richtext"
             },
             {
