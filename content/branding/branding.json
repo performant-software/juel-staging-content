@@ -27,7 +27,7 @@
           "justify": "justify-center",
           "content": [
             {
-              "image": "https://core-data-tina-cms.s3.us-east-1.amazonaws.com/juel-staging-content/JU_footer.svg",
+              "image": "https://core-data-tina-cms.s3.us-east-1.amazonaws.com/juel-staging-content/logo_footer.svg",
               "_template": "image"
             },
             {
