@@ -63,17 +63,6 @@
               "_template": "image"
             }
           ]
-        },
-        {
-          "width": "col-span-2",
-          "justify": "justify-center",
-          "align": "",
-          "content": [
-            {
-              "image": "https://core-data-tina-cms.s3.us-east-1.amazonaws.com/juel-staging-content/kenan_footer.png",
-              "_template": "image"
-            }
-          ]
         }
       ]
     }
