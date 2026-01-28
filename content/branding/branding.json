@@ -41,11 +41,8 @@
           ]
         },
         {
-          "width": "col-span-2"
-        },
-        {
           "width": "col-span-2",
-          "align": "",
+          "align": "items-center text-center",
           "content": [
             {
               "text": "**[People](/en/pages/People)**\n\n**[The Academical Village](/en/pages/Academical-Village)**\n\n**[Essays](/en/posts)**\n\n**[Documents](/en/search/items/)**\n\n**[Images](/en/search/images/)**\n\n**[About](/en/pages/About)**\n",
