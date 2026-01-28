@@ -41,6 +41,9 @@
           ]
         },
         {
+          "width": "col-span-2"
+        },
+        {
           "width": "col-span-4",
           "align": "",
           "content": [
