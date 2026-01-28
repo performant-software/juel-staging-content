@@ -55,6 +55,10 @@
           "justify": "justify-center",
           "content": [
             {
+              "image": "https://core-data-tina-cms.s3.us-east-1.amazonaws.com/juel-staging-content/footer_partner_logos.png",
+              "_template": "image"
+            },
+            {
               "image": "https://core-data-tina-cms.s3.us-east-1.amazonaws.com/juel-staging-content/trust_footer.png",
               "_template": "image"
             }
