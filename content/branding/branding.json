@@ -55,7 +55,7 @@
           "justify": "justify-center",
           "content": [
             {
-              "text": "![](https://core-data-tina-cms.s3.us-east-1.amazonaws.com/juel-staging-content/trust_footer.png)![](https://core-data-tina-cms.s3.us-east-1.amazonaws.com/juel-staging-content/kenan_footer.png)\n",
+              "text": "| ![](https://core-data-tina-cms.s3.us-east-1.amazonaws.com/juel-staging-content/trust_footer.png) | ![](https://core-data-tina-cms.s3.us-east-1.amazonaws.com/juel-staging-content/kenan_footer.png) |\n| ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |\n|                                                                                                  |                                                                                                  |\n",
               "_template": "richtext"
             },
             {
