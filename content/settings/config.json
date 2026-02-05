@@ -148,9 +148,9 @@
       "result_card": {
         "title": "name",
         "relationships": [
-          "b555606c-362a-43ae-b218-b42eed2127d4",
-          "0db27ce6-a907-44e4-aadf-1511465cd268",
-          "154f4774-60ee-4a38-8caf-6921fee296e6"
+          "aeba2266-5f33-4a30-a830-b95c421d06e4",
+          "c90870ef-db2a-467a-83d4-f1efb130665f",
+          "85d7b434-8125-4d27-884f-d4ea948f88c7"
         ]
       },
       "typesense": {
@@ -185,9 +185,9 @@
       "result_card": {
         "title": "name",
         "relationships": [
-          "7677bf5a-8920-4132-9ebb-7705efc3fe77",
-          "b555606c-362a-43ae-b218-b42eed2127d4",
-          "e0f0d948-125d-4a4d-bebf-9a18912b8026"
+          "b7994d57-44a8-46f5-bf17-799f398cb9fa",
+          "85d7b434-8125-4d27-884f-d4ea948f88c7",
+          "37dfbf76-2764-4a38-b68e-530d15fd0bed"
         ]
       },
       "typesense": {
