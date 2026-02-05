@@ -146,7 +146,12 @@
         "zoom_to_place": true
       },
       "result_card": {
-        "title": "name"
+        "title": "name",
+        "relationships": [
+          "b555606c-362a-43ae-b218-b42eed2127d4",
+          "0db27ce6-a907-44e4-aadf-1511465cd268",
+          "154f4774-60ee-4a38-8caf-6921fee296e6"
+        ]
       },
       "typesense": {
         "host": "rs8fzgh714n6bmvyp-1.a1.typesense.net",
