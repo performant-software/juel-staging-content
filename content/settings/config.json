@@ -6,43 +6,11 @@
       "items": {}
     }
   },
-  "result_filtering": {
-    "people": {
-      "exclude": [
-        "36821df6-ba35-4175-ac39-e9b3da87ba4e",
-        "24383a99-284b-4c89-803f-17aa1e7305a7",
-        "9a2a39f9-4e40-46ec-b929-4a058da6c3f6",
-        "e9ea7319-b93c-44c8-b1ba-c387c549d110",
-        "b61c5e80-bb14-4c48-93f6-d1d40222a8c9",
-        "f64b203e-cf92-461b-a9e1-6c95471ecc3e",
-        "0d5d0eae-34fe-47cd-a189-90af50b2b1e1",
-        "e7173b0d-9878-4ad2-a9a8-82a899ccdcca",
-        "9bb9218b-6929-4365-bb0d-95f6427e1005",
-        "02001264-9bd9-4281-8b2e-9e46d61bcb1a",
-        "01ff9954-d5ac-4f11-929e-5451caeea3d2"
-      ]
-    },
-    "items": {
-      "exclude": [
-        "b57475b6-8e0d-458c-96a5-c9d81e8eb0bd",
-        "98721bd1-da23-4f28-bdfb-a4bb28fb5990",
-        "bb20d614-333f-40f6-b5fb-708011cb6185"
-      ]
-    }
-  },
+  "gallery": "https://app.coredata.cloud/core_data/public/v1/items/95c7f234-3e81-49b8-8b72-25bc57896183/manifests?project_ids=92",
   "content": {
     "collections": [
       "posts"
-    ],
-    "posts_config": {
-      "drafts": true,
-      "categories": [
-        "Architecture",
-        "Biographies",
-        "Contextualizing Essays",
-        "Daily Life"
-      ]
-    }
+    ]
   },
   "core_data": {
     "url": "https://app.coredata.cloud",
@@ -56,7 +24,6 @@
       "en"
     ]
   },
-  "gallery": "https://app.coredata.cloud/core_data/public/v1/items/95c7f234-3e81-49b8-8b72-25bc57896183/manifests?project_ids=92",
   "layers": [
     {
       "name": "Johnson's map of New York and the adjacent cities",
@@ -93,12 +60,28 @@
       "overlay": true
     }
   ],
+  "result_filtering": {
+    "people": {
+      "exclude": [
+        "36821df6-ba35-4175-ac39-e9b3da87ba4e",
+        "24383a99-284b-4c89-803f-17aa1e7305a7",
+        "9a2a39f9-4e40-46ec-b929-4a058da6c3f6",
+        "e9ea7319-b93c-44c8-b1ba-c387c549d110",
+        "b61c5e80-bb14-4c48-93f6-d1d40222a8c9",
+        "f64b203e-cf92-461b-a9e1-6c95471ecc3e",
+        "0d5d0eae-34fe-47cd-a189-90af50b2b1e1",
+        "e7173b0d-9878-4ad2-a9a8-82a899ccdcca",
+        "9bb9218b-6929-4365-bb0d-95f6427e1005",
+        "02001264-9bd9-4281-8b2e-9e46d61bcb1a",
+        "01ff9954-d5ac-4f11-929e-5451caeea3d2"
+      ]
+    }
+  },
   "search": [
     {
       "name": "places",
       "route": "/places",
       "geosearch": true,
-      "type": "map",
       "map": {
         "geometry": "geometry",
         "max_zoom": 25,
@@ -109,22 +92,21 @@
       },
       "typesense": {
         "host": "rs8fzgh714n6bmvyp-1.a1.typesense.net",
-        "facets": {
-          "include": [
-            ""
-          ]
-        },
         "port": 443,
         "protocol": "https",
         "api_key": "il1F8rZjIq81FQablSXra1XYOMMnJ4Hu",
         "index_name": "places_campus",
-        "query_by": "name"
+        "query_by": "name",
+        "facets": {
+          "include": [
+            ""
+          ]
+        }
       }
     },
     {
       "name": "people",
       "route": "/people",
-      "type": "grid",
       "geosearch": true,
       "facets": [
         {
@@ -146,15 +128,15 @@
         "zoom_to_place": true
       },
       "result_card": {
-        "title": "name",
-        "relationships": [
-          "aeba2266-5f33-4a30-a830-b95c421d06e4",
-          "c90870ef-db2a-467a-83d4-f1efb130665f",
-          "85d7b434-8125-4d27-884f-d4ea948f88c7"
-        ]
+        "title": "name"
       },
       "typesense": {
         "host": "rs8fzgh714n6bmvyp-1.a1.typesense.net",
+        "port": 443,
+        "protocol": "https",
+        "api_key": "il1F8rZjIq81FQablSXra1XYOMMnJ4Hu",
+        "index_name": "people",
+        "query_by": "name",
         "facets": {
           "include": [
             "319c320d-d278-443d-b015-95377be24b6c_facet",
@@ -164,18 +146,12 @@
             "b20139c2-5a2b-4235-bb0f-09563828e195.name_facet",
             "54ffcbd2-4ce7-44ab-8d1c-42a004372fa7.name_facet"
           ]
-        },
-        "port": 443,
-        "protocol": "https",
-        "api_key": "il1F8rZjIq81FQablSXra1XYOMMnJ4Hu",
-        "index_name": "people",
-        "query_by": "name"
+        }
       }
     },
     {
       "name": "items",
       "route": "/items",
-      "type": "list",
       "geosearch": true,
       "map": {
         "geometry": "f05615a6-588e-472f-aead-ea19edd8d905.geometry",
@@ -183,52 +159,41 @@
         "zoom_to_place": true
       },
       "result_card": {
-        "title": "name",
-        "relationships": [
-          "b7994d57-44a8-46f5-bf17-799f398cb9fa",
-          "85d7b434-8125-4d27-884f-d4ea948f88c7",
-          "37dfbf76-2764-4a38-b68e-530d15fd0bed"
-        ]
+        "title": "name"
       },
       "typesense": {
         "host": "rs8fzgh714n6bmvyp-1.a1.typesense.net",
-        "facets": {
-          "include": [
-            ""
-          ]
-        },
         "port": 443,
         "protocol": "https",
         "api_key": "il1F8rZjIq81FQablSXra1XYOMMnJ4Hu",
         "index_name": "documents",
-        "query_by": "name"
+        "query_by": "name",
+        "facets": {
+          "include": [
+            "8552fc21-d6de-478d-8cbb-2216e4343183\t"
+          ]
+        }
       }
     },
     {
       "name": "images",
       "route": "/media",
-      "type": "grid",
       "result_card": {
         "title": "name"
       },
       "typesense": {
         "host": "rs8fzgh714n6bmvyp-1.a1.typesense.net",
+        "port": 443,
+        "protocol": "https",
+        "api_key": "il1F8rZjIq81FQablSXra1XYOMMnJ4Hu",
+        "index_name": "media",
+        "query_by": "name",
         "facets": {
           "include": [
             ""
           ]
         },
-        "overrides": {
-          "additionalSearchParameters": {
-            "filter_by": "8a11aa96-d0ea-4d82-827b-58201dc3fb40:=true",
-            "preset": false
-          }
-        },
-        "port": 443,
-        "protocol": "https",
-        "api_key": "il1F8rZjIq81FQablSXra1XYOMMnJ4Hu",
-        "index_name": "media",
-        "query_by": "name"
+        "overrides": {}
       }
     }
   ]
