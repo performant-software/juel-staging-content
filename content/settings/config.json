@@ -3,14 +3,32 @@
     "models": {
       "people": {},
       "places": {},
-      "items": {}
+      "items": {
+        "editioncrafter_config": {
+          "xml_id_field": "b57475b6-8e0d-458c-96a5-c9d81e8eb0bd",
+          "faircopy_base_url": "https://beta-api.faircopy.cloud",
+          "faircopy_project_id": "11",
+          "transcription_types": {
+            "transcription": "Transcription"
+          }
+        }
+      }
     }
   },
   "gallery": "https://app.coredata.cloud/core_data/public/v1/items/95c7f234-3e81-49b8-8b72-25bc57896183/manifests?project_ids=92",
   "content": {
     "collections": [
       "posts"
-    ]
+    ],
+    "posts_config": {
+      "drafts": true,
+      "categories": [
+        "Architecture",
+        "Biographies",
+        "Contextualizing Essays",
+        "Daily Life"
+      ]
+    }
   },
   "core_data": {
     "url": "https://app.coredata.cloud",
@@ -81,6 +99,7 @@
     {
       "name": "places",
       "route": "/places",
+      "type": "map",
       "geosearch": true,
       "map": {
         "geometry": "geometry",
@@ -107,6 +126,7 @@
     {
       "name": "people",
       "route": "/people",
+      "type": "grid",
       "geosearch": true,
       "facets": [
         {
@@ -152,6 +172,7 @@
     {
       "name": "items",
       "route": "/items",
+      "type": "list",
       "geosearch": true,
       "map": {
         "geometry": "f05615a6-588e-472f-aead-ea19edd8d905.geometry",
@@ -178,6 +199,7 @@
     {
       "name": "images",
       "route": "/media",
+      "type": "grid",
       "result_card": {
         "title": "name"
       },
