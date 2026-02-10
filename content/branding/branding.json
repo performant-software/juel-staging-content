@@ -47,6 +47,10 @@
             {
               "links": [
                 {
+                  "url": "/en/pages/Academical-Village",
+                  "label": "Academical Village"
+                },
+                {
                   "url": "/en/pages/People",
                   "label": "People"
                 }
