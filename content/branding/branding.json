@@ -45,6 +45,16 @@
           "align": "items-center text-center",
           "content": [
             {
+              "links": [
+                {
+                  "url": "/en/pages/People",
+                  "label": "People"
+                }
+              ],
+              "orientation": "column",
+              "_template": "link_row"
+            },
+            {
               "text": "**[People](/en/pages/People)**\n\n**[The Academical Village](/en/pages/Academical-Village)**\n\n**[Essays](/en/posts)**\n\n**[Documents](/en/search/items/)**\n\n**[Images](/en/search/images/)**\n\n**[About](/en/pages/About)**\n",
               "_template": "richtext"
             }
