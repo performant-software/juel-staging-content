@@ -47,6 +47,10 @@
             {
               "links": [
                 {
+                  "url": "/en/pages/About",
+                  "label": "About"
+                },
+                {
                   "url": "/en/search/images",
                   "label": "Images"
                 },
