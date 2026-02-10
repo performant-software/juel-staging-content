@@ -47,12 +47,16 @@
             {
               "links": [
                 {
-                  "url": "/en/pages/Academical-Village",
-                  "label": "Academical Village"
+                  "url": "/en/posts",
+                  "label": "Essays"
                 },
                 {
                   "url": "/en/pages/People",
                   "label": "People"
+                },
+                {
+                  "url": "/en/pages/Academical-Village",
+                  "label": "Academical Village"
                 }
               ],
               "orientation": "column",
