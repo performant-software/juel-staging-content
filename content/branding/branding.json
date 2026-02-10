@@ -47,6 +47,10 @@
             {
               "links": [
                 {
+                  "url": "/en/search/images",
+                  "label": "Images"
+                },
+                {
                   "url": "/en/search/items",
                   "label": "Documents"
                 },
