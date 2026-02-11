@@ -120,7 +120,7 @@
         "host": "rs8fzgh714n6bmvyp-1.a1.typesense.net",
         "facets": {
           "include": [
-            ""
+            "ba97848d-ba63-40d3-9b21-b74706ff716b.name_facet"
           ]
         },
         "port": 443,
@@ -147,6 +147,10 @@
         {
           "name": "b20139c2-5a2b-4235-bb0f-09563828e195.name_facet",
           "type": "select"
+        },
+        {
+          "name": "3c89a536-dee6-4a4f-93db-14690c7ec72f.name_facet",
+          "type": "select"
         }
       ],
       "map": {
@@ -156,6 +160,14 @@
       },
       "result_card": {
         "title": "name",
+        "attributes": [
+          {
+            "name": "16ee0266-d93c-4b92-b094-65e4362a7053.0.name"
+          },
+          {
+            "name": "2d5e2c31-8513-4c39-9862-e139199e54bf.0.name"
+          }
+        ],
         "relationships": [
           "aeba2266-5f33-4a30-a830-b95c421d06e4",
           "c90870ef-db2a-467a-83d4-f1efb130665f",
@@ -171,7 +183,8 @@
             "16ee0266-d93c-4b92-b094-65e4362a7053.name_facet",
             "2d5e2c31-8513-4c39-9862-e139199e54bf.name_facet",
             "b20139c2-5a2b-4235-bb0f-09563828e195.name_facet",
-            "54ffcbd2-4ce7-44ab-8d1c-42a004372fa7.name_facet"
+            "54ffcbd2-4ce7-44ab-8d1c-42a004372fa7.name_facet",
+            "3c89a536-dee6-4a4f-93db-14690c7ec72f.name_facet"
           ]
         },
         "port": 443,
@@ -216,7 +229,7 @@
     {
       "name": "images",
       "route": "/media",
-      "type": "grid",
+      "type": "image",
       "result_card": {
         "title": "name"
       },
@@ -224,7 +237,7 @@
         "host": "rs8fzgh714n6bmvyp-1.a1.typesense.net",
         "facets": {
           "include": [
-            ""
+            "8a4b6411-3d13-4451-a2d9-e4630dbc2c5b.name_facet"
           ]
         },
         "overrides": {
