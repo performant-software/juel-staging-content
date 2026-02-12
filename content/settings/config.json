@@ -8,9 +8,10 @@
           "xml_id_field": "b57475b6-8e0d-458c-96a5-c9d81e8eb0bd",
           "faircopy_base_url": "https://beta-api.faircopy.cloud",
           "faircopy_project_id": "11",
-          "transcription_types": {
-            "transcription": "Transcription"
-          }
+          "transcription_types": [{
+            "key": "transcription",
+            "label": "Transcription"
+          }]
         }
       }
     }
