@@ -195,13 +195,13 @@
         "query_by": "name",
         "facets": {
           "include": [
-            "319c320d-d278-443d-b015-95377be24b6c_facet",
-            "5c75a0f7-2646-4dd4-ac2e-cfce8cac14dc_facet",
             "16ee0266-d93c-4b92-b094-65e4362a7053.name_facet",
             "2d5e2c31-8513-4c39-9862-e139199e54bf.name_facet",
+            "3c89a536-dee6-4a4f-93db-14690c7ec72f.name_facet",
+            "319c320d-d278-443d-b015-95377be24b6c_facet",
+            "5c75a0f7-2646-4dd4-ac2e-cfce8cac14dc_facet",
             "b20139c2-5a2b-4235-bb0f-09563828e195.name_facet",
-            "54ffcbd2-4ce7-44ab-8d1c-42a004372fa7.name_facet",
-            "3c89a536-dee6-4a4f-93db-14690c7ec72f.name_facet"
+            "54ffcbd2-4ce7-44ab-8d1c-42a004372fa7.name_facet"
           ]
         }
       }
