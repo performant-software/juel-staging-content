@@ -172,7 +172,8 @@
             "name": "2d5e2c31-8513-4c39-9862-e139199e54bf.0.name"
           },
           {
-            "name": "bf2f94e8-b4b4-4c91-ab3c-3cb4777d9d98"
+            "name": "bf2f94e8-b4b4-4c91-ab3c-3cb4777d9d98",
+            "parser": "fuzzyDate"
           },
           {
             "name": "7416f0ae-c7a2-4505-ba6b-877f43fb4e9e"
@@ -260,12 +261,7 @@
             "8a4b6411-3d13-4451-a2d9-e4630dbc2c5b.name_facet"
           ]
         },
-        "overrides": {
-          "additionalSearchParameters": {
-            "filter_by": "8a11aa96-d0ea-4d82-827b-58201dc3fb40:=true",
-            "preset": false
-          }
-        }
+        "overrides": {}
       }
     }
   ]
