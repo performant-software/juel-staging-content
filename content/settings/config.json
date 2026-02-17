@@ -260,7 +260,10 @@
         "query_by": "name",
         "facets": {
           "include": [
-            "0e2be6c7-7dcb-414e-b5cc-0f652f4f83b7_facet"
+            "ee5d102e-a1bb-41f3-87f3-b4bdac4595a4_facet",
+            "0e2be6c7-7dcb-414e-b5cc-0f652f4f83b7_facet",
+            "7994572a-8d0a-4c93-9ab5-5cefb0cfbf38_facet",
+            "875c8f94-f8d3-458b-8f1b-c93e6e91e711_facet"
           ]
         },
         "overrides": {}
