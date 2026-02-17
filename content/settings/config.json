@@ -176,7 +176,8 @@
             "parser": "fuzzyDate"
           },
           {
-            "name": "7416f0ae-c7a2-4505-ba6b-877f43fb4e9e"
+            "name": "7416f0ae-c7a2-4505-ba6b-877f43fb4e9e",
+            "parser": "fuzzyDate"
           }
         ],
         "relationships": [
