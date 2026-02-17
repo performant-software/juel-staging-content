@@ -260,7 +260,7 @@
         "query_by": "name",
         "facets": {
           "include": [
-            "0ba2a557-9d84-4b50-ab3f-f9014a1e02ef.name_facet"
+            "0e2be6c7-7dcb-414e-b5cc-0f652f4f83b7_facet"
           ]
         },
         "overrides": {}
