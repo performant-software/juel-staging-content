@@ -1,57 +1,16 @@
 {
-  "detail_pages": {
-    "models": {
-      "people": {},
-      "places": {},
-      "items": {
-        "editioncrafter_config": {
-          "xml_id_field": "b57475b6-8e0d-458c-96a5-c9d81e8eb0bd",
-          "faircopy_base_url": "https://beta-api.faircopy.cloud",
-          "faircopy_project_id": "11",
-          "transcription_types": [{
-            "key": "transcription",
-            "label": "Transcription"
-          }]
-        }
-      }
-    }
-  },
-  "result_filtering": {
-    "people": {
-      "exclude": [
-        "36821df6-ba35-4175-ac39-e9b3da87ba4e",
-        "24383a99-284b-4c89-803f-17aa1e7305a7",
-        "9a2a39f9-4e40-46ec-b929-4a058da6c3f6",
-        "e9ea7319-b93c-44c8-b1ba-c387c549d110",
-        "b61c5e80-bb14-4c48-93f6-d1d40222a8c9",
-        "f64b203e-cf92-461b-a9e1-6c95471ecc3e",
-        "0d5d0eae-34fe-47cd-a189-90af50b2b1e1",
-        "e7173b0d-9878-4ad2-a9a8-82a899ccdcca",
-        "9bb9218b-6929-4365-bb0d-95f6427e1005",
-        "02001264-9bd9-4281-8b2e-9e46d61bcb1a",
-        "01ff9954-d5ac-4f11-929e-5451caeea3d2"
-      ]
-    },
-    "items": {
-      "exclude": [
-        "b57475b6-8e0d-458c-96a5-c9d81e8eb0bd",
-        "98721bd1-da23-4f28-bdfb-a4bb28fb5990",
-        "bb20d614-333f-40f6-b5fb-708011cb6185"
-      ]
-    }
-  },
   "content": {
     "collections": [
       "posts"
     ],
     "posts_config": {
-      "drafts": true,
       "categories": [
         "Architecture",
         "Biographies",
         "Contextualizing Essays",
         "Daily Life"
-      ]
+      ],
+      "drafts": true
     }
   },
   "core_data": {
@@ -59,6 +18,25 @@
     "project_ids": [
       "92"
     ]
+  },
+  "detail_pages": {
+    "models": {
+      "items": {
+        "editioncrafter_config": {
+          "xml_id_field": "b57475b6-8e0d-458c-96a5-c9d81e8eb0bd",
+          "faircopy_base_url": "https://beta-api.faircopy.cloud",
+          "faircopy_project_id": "11",
+          "transcription_types": [
+            {
+              "key": "transcription",
+              "label": "Transcription"
+            }
+          ]
+        }
+      },
+      "people": {},
+      "places": {}
+    }
   },
   "i18n": {
     "default_locale": "en",
@@ -103,12 +81,36 @@
       "overlay": true
     }
   ],
+  "result_filtering": {
+    "items": {
+      "exclude": [
+        "b57475b6-8e0d-458c-96a5-c9d81e8eb0bd",
+        "98721bd1-da23-4f28-bdfb-a4bb28fb5990",
+        "bb20d614-333f-40f6-b5fb-708011cb6185"
+      ]
+    },
+    "people": {
+      "exclude": [
+        "36821df6-ba35-4175-ac39-e9b3da87ba4e",
+        "24383a99-284b-4c89-803f-17aa1e7305a7",
+        "9a2a39f9-4e40-46ec-b929-4a058da6c3f6",
+        "e9ea7319-b93c-44c8-b1ba-c387c549d110",
+        "b61c5e80-bb14-4c48-93f6-d1d40222a8c9",
+        "f64b203e-cf92-461b-a9e1-6c95471ecc3e",
+        "0d5d0eae-34fe-47cd-a189-90af50b2b1e1",
+        "e7173b0d-9878-4ad2-a9a8-82a899ccdcca",
+        "9bb9218b-6929-4365-bb0d-95f6427e1005",
+        "02001264-9bd9-4281-8b2e-9e46d61bcb1a",
+        "01ff9954-d5ac-4f11-929e-5451caeea3d2"
+      ]
+    }
+  },
   "search": [
     {
       "name": "places",
       "route": "/places",
-      "geosearch": true,
       "type": "map",
+      "geosearch": true,
       "map": {
         "geometry": "geometry",
         "max_zoom": 25,
@@ -119,16 +121,17 @@
       },
       "typesense": {
         "host": "rs8fzgh714n6bmvyp-1.a1.typesense.net",
-        "facets": {
-          "include": [
-            "ba97848d-ba63-40d3-9b21-b74706ff716b.name_facet"
-          ]
-        },
         "port": 443,
         "protocol": "https",
         "api_key": "il1F8rZjIq81FQablSXra1XYOMMnJ4Hu",
         "index_name": "places_campus",
-        "query_by": "name"
+        "query_by": "name",
+        "default_sort": "name",
+        "facets": {
+          "include": [
+            "ba97848d-ba63-40d3-9b21-b74706ff716b.name_facet"
+          ]
+        }
       }
     },
     {
@@ -169,12 +172,10 @@
             "name": "2d5e2c31-8513-4c39-9862-e139199e54bf.0.name"
           },
           {
-            "name": "bf2f94e8-b4b4-4c91-ab3c-3cb4777d9d98",
-            "fuzzy_date": true
+            "name": "bf2f94e8-b4b4-4c91-ab3c-3cb4777d9d98"
           },
           {
-            "name": "7416f0ae-c7a2-4505-ba6b-877f43fb4e9e",
-            "fuzzy_date": true
+            "name": "7416f0ae-c7a2-4505-ba6b-877f43fb4e9e"
           }
         ],
         "relationships": [
@@ -185,6 +186,11 @@
       },
       "typesense": {
         "host": "rs8fzgh714n6bmvyp-1.a1.typesense.net",
+        "port": 443,
+        "protocol": "https",
+        "api_key": "il1F8rZjIq81FQablSXra1XYOMMnJ4Hu",
+        "index_name": "people",
+        "query_by": "name",
         "facets": {
           "include": [
             "319c320d-d278-443d-b015-95377be24b6c_facet",
@@ -195,12 +201,7 @@
             "54ffcbd2-4ce7-44ab-8d1c-42a004372fa7.name_facet",
             "3c89a536-dee6-4a4f-93db-14690c7ec72f.name_facet"
           ]
-        },
-        "port": 443,
-        "protocol": "https",
-        "api_key": "il1F8rZjIq81FQablSXra1XYOMMnJ4Hu",
-        "index_name": "people",
-        "query_by": "name"
+        }
       }
     },
     {
@@ -217,8 +218,7 @@
         "title": "name",
         "attributes": [
           {
-            "name": "8552fc21-d6de-478d-8cbb-2216e4343183",
-            "fuzzy_date": true
+            "name": "8552fc21-d6de-478d-8cbb-2216e4343183"
           }
         ],
         "relationships": [
@@ -229,16 +229,16 @@
       },
       "typesense": {
         "host": "rs8fzgh714n6bmvyp-1.a1.typesense.net",
-        "facets": {
-          "include": [
-            "8552fc21-d6de-478d-8cbb-2216e4343183"
-          ]
-        },
         "port": 443,
         "protocol": "https",
         "api_key": "il1F8rZjIq81FQablSXra1XYOMMnJ4Hu",
         "index_name": "documents",
-        "query_by": "name"
+        "query_by": "name",
+        "facets": {
+          "include": [
+            "8552fc21-d6de-478d-8cbb-2216e4343183"
+          ]
+        }
       }
     },
     {
@@ -250,22 +250,17 @@
       },
       "typesense": {
         "host": "rs8fzgh714n6bmvyp-1.a1.typesense.net",
+        "port": 443,
+        "protocol": "https",
+        "api_key": "il1F8rZjIq81FQablSXra1XYOMMnJ4Hu",
+        "index_name": "media",
+        "query_by": "name",
         "facets": {
           "include": [
             "8a4b6411-3d13-4451-a2d9-e4630dbc2c5b.name_facet"
           ]
         },
-        "overrides": {
-          "additionalSearchParameters": {
-            "filter_by": "8a11aa96-d0ea-4d82-827b-58201dc3fb40:=true",
-            "preset": false
-          }
-        },
-        "port": 443,
-        "protocol": "https",
-        "api_key": "il1F8rZjIq81FQablSXra1XYOMMnJ4Hu",
-        "index_name": "media",
-        "query_by": "name"
+        "overrides": {}
       }
     }
   ]
