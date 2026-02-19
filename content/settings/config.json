@@ -104,6 +104,11 @@
         "b61c5e80-bb14-4c48-93f6-d1d40222a8c9",
         "f64b203e-cf92-461b-a9e1-6c95471ecc3e"
       ]
+    },
+    "places": {
+      "exclude": [
+        "e284adca-2155-4c27-ac73-7fbf67fade8c"
+      ]
     }
   },
   "search": [
