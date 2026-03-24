@@ -136,12 +136,7 @@
         "api_key": "il1F8rZjIq81FQablSXra1XYOMMnJ4Hu",
         "index_name": "places_campus",
         "query_by": "name",
-        "default_sort": "name",
-        "facets": {
-          "include": [
-            "ba97848d-ba63-40d3-9b21-b74706ff716b.name_facet"
-          ]
-        }
+        "default_sort": "name"
       }
     },
     {
