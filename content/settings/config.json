@@ -32,6 +32,10 @@
               "label": "Transcription"
             }
           ]
+        },
+        "text_viewer_config": {
+          "base_url": "https://performant-software.github.io/juel-iath-xml/xml",
+          "file_path_field": "98721bd1-da23-4f28-bdfb-a4bb28fb5990"
         }
       },
       "people": {
