@@ -233,6 +233,16 @@
         "max_zoom": 14,
         "zoom_to_place": true
       },
+      "facets": [
+        {
+          "name": "37dfbf76-2764-4a38-b68e-530d15fd0bed.name_facet",
+          "type": "select"
+        },
+        {
+          "name": "85d7b434-8125-4d27-884f-d4ea948f88c7.name_facet",
+          "type": "select"
+        }
+      ],
       "result_card": {
         "title": "name",
         "attributes": [
@@ -282,8 +292,7 @@
             "0e2be6c7-7dcb-414e-b5cc-0f652f4f83b7_facet",
             "5b21098b-ade1-4add-a8e6-b8617c9e82a1.name_facet",
             "7994572a-8d0a-4c93-9ab5-5cefb0cfbf38_facet",
-            "2d9c53bb-046e-4612-ad27-f9452e867a69.name_facet",
-            "875c8f94-f8d3-458b-8f1b-c93e6e91e711_facet.0"
+            "2d9c53bb-046e-4612-ad27-f9452e867a69.name_facet"
           ]
         },
         "overrides": {}
