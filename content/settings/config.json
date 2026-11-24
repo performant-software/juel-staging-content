@@ -32,18 +32,10 @@
               "label": "Transcription"
             }
           ]
-        },
-        "text_viewer_config": {
-          "base_url": "https://performant-software.github.io/juel-iath-xml/xml",
-          "file_path_field": "98721bd1-da23-4f28-bdfb-a4bb28fb5990"
         }
       },
-      "people": {
-        "resources_field": "3386849b-4e4e-44fc-83b5-8d318126c01c.e012e568-e68f-4077-8460-0e0cdd3991dc"      
-      },
-      "places": {
-        "resources_field": "010e8289-73d4-41d0-ac91-501237df7f62.e012e568-e68f-4077-8460-0e0cdd3991dc"      
-      }
+      "people": {},
+      "places": {}
     }
   },
   "i18n": {
@@ -228,11 +220,6 @@
       "route": "/items",
       "type": "list",
       "geosearch": true,
-      "map": {
-        "geometry": "f05615a6-588e-472f-aead-ea19edd8d905.geometry",
-        "max_zoom": 14,
-        "zoom_to_place": true
-      },
       "facets": [
         {
           "name": "37dfbf76-2764-4a38-b68e-530d15fd0bed.name_facet",
@@ -243,6 +230,11 @@
           "type": "select"
         }
       ],
+      "map": {
+        "geometry": "f05615a6-588e-472f-aead-ea19edd8d905.geometry",
+        "max_zoom": 14,
+        "zoom_to_place": true
+      },
       "result_card": {
         "title": "name",
         "attributes": [
@@ -257,6 +249,7 @@
           "37dfbf76-2764-4a38-b68e-530d15fd0bed"
         ]
       },
+      "disable_search_as_you_type": true,
       "typesense": {
         "host": "rs8fzgh714n6bmvyp-1.a1.typesense.net",
         "port": 443,
@@ -297,6 +290,13 @@
         },
         "overrides": {}
       }
+    }
+  ],
+  "history": [
+    {
+      "user_email": "rebecca@performantsoftware.com",
+      "timestamp": "2026-11-24T05:19:04.648Z",
+      "user_id": "user_3DJm0JzK4nv4ptaeePFNeyZ9K41"
     }
   ]
 }
